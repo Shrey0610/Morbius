@@ -1,0 +1,56 @@
+.PredictDisease {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Increased padding for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 600px; /* Adjusted max-width for responsiveness */
+  width: 90%; /* Adjusted width for responsiveness */
+  margin: 20px auto; /* Centering the container with top and bottom margin */
+  background-color: #f9f9f9;
+}
+
+.PredictDisease h1 {
+  font-size: 2em; /* Increased font size for heading */
+  margin-bottom: 15px; /* Adjusted margin for smaller spacing */
+}
+
+.PredictDisease form {
+  width: 100%;
+  text-align: center;
+}
+
+.PredictDisease label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.PredictDisease button[type="submit"] {
+  padding: 10px 20px; /* Adjusted padding for button */
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.PredictDisease button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.PredictDisease .prediction-result {
+  margin-top: 20px;
+}
+
+.PredictDisease .prediction-result h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.PredictDisease .prediction-result p {
+  margin-bottom: 5px;
+}

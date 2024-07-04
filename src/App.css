@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+.form-container label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-container input[type="text"],
+.form-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Adjusted margin for consistent spacing */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.form-container input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.symptom-select {
+  width: 100%; /* Adjusted width for responsiveness */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.selected-symptoms {
+  margin-top: 20px;
+}
+
+.selected-symptoms ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-symptoms li {
+  margin-bottom: 5px;
+}
+
+.predict-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.predict-button:hover {
+  background-color: #0056b3;
+}
+
+.labguide-container {
+  max-width: 600px;
+  margin: 30px auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.symptoms-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.prediction-result {
+  margin-top: 20px;
+}
+
+.selected-symptoms h2 {
+  margin-bottom: 10px;
+}
+
+.disease-predictor-title {
+  font-size: 2em; /* Adjust size as needed */
+  padding: 20px 75px; /* Adjust padding as needed */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+.symptoms-heading {
+  font-size: 1.2em; /* Adjust font size as needed */
+  margin: 10px 0; /* Adjust margin as needed */
+  text-align: center;
+  padding: auto; /* Center-align the text */
+  color: #333; /* Adjust color as needed */
+}
