@@ -5,7 +5,13 @@
 https://github.com/Shrey0610/Morbius/assets/119574537/6c24e68a-012c-4498-9000-15b97401cd10
 
 ## Have a quick glance-
-<img width="1440" alt="Screenshot 2024-07-04 at 17 17 40" src="https://github.com/Shrey0610/Morbius/assets/119574537/41e6b6d7-b91a-4159-907f-0a7433465bcf">
-<img width="1440" alt="Screenshot 2024-07-04 at 17 18 34" src="https://github.com/Shrey0610/Morbius/assets/119574537/3a428336-ff0a-4c29-a1e6-73b0b73c37a8">
-<img width="1440" alt="Screenshot 2024-07-04 at 17 18 02" src="https://github.com/Shrey0610/Morbius/assets/119574537/18ea642d-a7b4-41bd-8c2f-41e506ccc0be">
-<img width="1440" alt="Screenshot 2024-07-04 at 17 36 56" src="https://github.com/Shrey0610/Morbius/assets/119574537/de53d252-f6c2-4e6a-b8dd-24096267bc2d">
+<table>
+  <tr>
+    <td><img src="https://github.com/Shrey0610/Morbius/assets/119574537/41e6b6d7-b91a-4159-907f-0a7433465bcf" alt="Image 1" width="500" height="400"></td>
+    <td><img src="https://github.com/Shrey0610/Morbius/assets/119574537/3a428336-ff0a-4c29-a1e6-73b0b73c37a8" alt="Image 2" width="500" height="400"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Shrey0610/Morbius/assets/119574537/18ea642d-a7b4-41bd-8c2f-41e506ccc0be" alt="Image 3" width="500" height="400"></td>
+    <td><img src="https://github.com/Shrey0610/Morbius/assets/119574537/de53d252-f6c2-4e6a-b8dd-24096267bc2d" alt="Image 4" width="500" height="400"></td>
+  </tr>
+</table>
